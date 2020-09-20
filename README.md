@@ -1,0 +1,1 @@
+1. We had an issue related to key properties. The API could return the same element (a fact about cats), so it's unsafe to use an element's id as a key. I decided to use an object instead of an array to avoiding id duplication.
